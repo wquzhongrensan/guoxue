@@ -3,7 +3,7 @@
 
 # 项目描述
 
-本项目是一个前后端分离的论坛系统。前端基于vue.js框架的，后端基于django+django_rest_framework，前后端之间通过vue.js的axios发送http请求获取数据，实现交互。
+本项目是一个前后端分离的以国学为主题的论坛系统。前端基于vue.js框架的，后端基于django+django_rest_framework，前后端之间通过vue.js的axios发送http请求获取数据，实现交互。
 
 ![image](https://raw.githubusercontent.com/123success123/guoxue/master/images/person.png)
 
