@@ -3,9 +3,9 @@
 
 # 项目描述
 
-本项目是一个前后端分离的论坛系统。前端基于vue.js框架的，后端基于django+django_rest_framework，前后端之间通过vue.js的axios发送http请求获取数据，实现交互。
+本项目是一个前后端分离的以国学为主题的论坛系统。前端基于vue.js框架的，后端基于django+django_rest_framework，前后端之间通过vue.js的axios发送http请求获取数据，实现交互。
 
-![image](https://raw.githubusercontent.com/123success123/guoxue/master/images/homepages.png)
+![image](https://raw.githubusercontent.com/123success123/guoxue/master/images/person.png)
 
 # 项目使用说明
 
@@ -22,9 +22,8 @@
 	7. django默认的认证系统 AbstractUser ，同时采用jwt实现用户登录认证。同时支持第三方登录。
 	8. itsdangerous生成签名的token，用户生成用户账号激活的token信息
 	9. 邮件（django提供邮件支持  配置参数  send_mail）
-	10. celery
-	11. 缓存（drf-extention）（缓解压力， 保存的位置、有效期、与数据库的一致性问题）
-	12. 前端采用vue实现，用到了其中的axios来发送ajax请求获取数据、vuex来存储数据、router来实现页面展示。
+	10. 缓存（drf-extention）（缓解压力， 保存的位置、有效期、与数据库的一致性问题）
+	11. 前端采用vue实现，用到了其中的axios来发送ajax请求获取数据、vuex来存储数据、router来实现页面展示。
 
 # 项目难点
 
