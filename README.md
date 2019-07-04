@@ -19,7 +19,7 @@
 	4. 论坛模块：首页、详情、列表、发帖、回帖、点赞、收藏、浏览
 	5. 书籍推荐模块： 首页、详情页、浏览
 	6. 文章模块：首页、列表页、详情页、浏览
-	7. django默认的认证系统 AbstractUser ，同时采用jwt实现用户登录认证。同时支持第三方登录。
+	7. django默认的认证系统 AbstractUser ，同时采用jwt实现用户登录认证。
 	8. itsdangerous生成签名的token，用户生成用户账号激活的token信息
 	9. 邮件（django提供邮件支持  配置参数  send_mail）
 	10. 缓存（drf-extention）（缓解压力， 保存的位置、有效期、与数据库的一致性问题）
@@ -35,13 +35,11 @@
 
 	1. 采用的基于cbv，即class-base-view，基于类的视图，来进行开发
 	2. django+django_rest_framework
-	3. 使用了social-auth-django实现了第三方登陆。同时自定义返回jwt格式的token信息
-	4. 集成了富文本编辑器ueditor
-	5. 使用了缓存缓存数据,同时对sql语句进行了一定的优化。
-	6. 登录验证方式采用的不是drf内置的token认证方式，而采用的是jwt认证方式
-	8. 继承django内置的abstractuser类实现user模型类
-	9. 使用到了drf的viewset、serializer、modelserializer、filter、pagination、throtting等来实现后端视图的开发
-	10. 使用了django-cors-header实现了跨域请求处理
+	3. 集成了富文本编辑器ueditor
+	4. 使用了缓存缓存数据,同时对sql语句进行了一定的优化。
+	5. 登录验证方式采用的不是drf内置的token认证方式，而采用的是jwt认证方式
+	6. 继承django内置的abstractuser类实现user模型类
+	7. 使用到了drf的viewset、serializer、modelserializer、filter、pagination、throtting等来实现后端视图的开发
 
 # 项目缺点
 
